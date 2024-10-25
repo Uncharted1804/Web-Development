@@ -1,0 +1,140 @@
+/* General Styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* A more modern font */
+    line-height: 1.8; /* More relaxed line spacing */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Softer light background */
+    color: #333; /* Subtle dark color for readability */
+}
+
+/* Headings */
+h1, h2 {
+    color: #2c3e50; /* Deep blue for a professional feel */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase; /* Makes the title look stronger */
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #3498db; /* Highlighted border */
+    color: #2980b9; /* A brighter blue for sections */
+}
+
+/* Paragraphs and List Items */
+p, li {
+    font-size: 1.1em;
+    color: #555; /* Softer gray for body text */
+    line-height: 1.7; /* More spacing for readability */
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #3498db; /* Blue color for links */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #2980b9; /* Darken the link color on hover */
+    text-decoration: underline;
+}
+
+/* Main Container */
+div {
+    max-width: 900px;
+    margin: 40px auto; /* More spacing around the container */
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+}
+
+/* Image */
+img {
+    width: 150px;
+    border-radius: 50%; /* Circular profile image */
+    margin-right: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for images */
+}
+
+/* Contact Section Links */
+div p a {
+    font-weight: bold;
+    color: #1abc9c; /* A soft green to differentiate contact links */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin: 20px 0 40px 0;
+    border-collapse: collapse; /* Removes gaps between table cells */
+}
+
+td {
+    vertical-align: top;
+    padding: 15px;
+    border-bottom: 1px solid #ddd; /* Adds subtle lines between table rows */
+}
+
+/* Sections */
+section {
+    margin-bottom: 50px; /* Increased margin for better spacing between sections */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+}
+
+ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee; /* Subtle divider between list items */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #34495e; /* Darker footer background */
+    color: white;
+    font-size: 0.9em;
+    margin-top: 40px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Adds shadow above the footer */
+}
+
+footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #bdc3c7;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    div {
+        padding: 20px;
+    }
+
+    img {
+        width: 120px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}

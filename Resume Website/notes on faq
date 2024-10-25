@@ -1,0 +1,9 @@
+if we want a section in our portfolio website  if we want a faq section in our website 
+<section>
+<h2>Frequent asked questions</h2>
+<detials>
+<summary>What is your name?</summary>
+<p>My name is Shaurya MittaL Nair</p>
+</details>
+</section>
+
