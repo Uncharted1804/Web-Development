@@ -1,0 +1,9 @@
+if we want to embed a youtube vid using iframe 
+<iframe src="paste the youtube link">
+upon pasting the link 
+https://www.youtube.com/watch?v=fb4rgYbi84c&list=PLDzeHZWIZsTo0wSBcg4-NMIbC0L8evLrD&index=11
+
+remove watch?v
+and 
+insert 
+embed/
